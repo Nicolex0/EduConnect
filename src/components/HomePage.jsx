@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // Import Link for routing
 
 const HomePage = () => {
   return (
@@ -8,10 +9,10 @@ const HomePage = () => {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-600">EduConnect</h1>
           <nav className="space-x-6">
-            <a href="#" className="text-gray-700 hover:text-blue-600 font-medium">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</a>
-            <a href="#courses" className="text-gray-700 hover:text-blue-600 font-medium">Courses</a>
-            <a href="#account" className="text-gray-700 hover:text-blue-600 font-medium">Account</a>
+            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Home</Link>
+            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">About Us</Link>
+            <Link to="/courses" className="text-gray-700 hover:text-blue-600 font-medium">Courses</Link>
+            <Link to="/account" className="text-gray-700 hover:text-blue-600 font-medium">Account</Link>
           </nav>
         </div>
       </header>
@@ -24,7 +25,7 @@ const HomePage = () => {
               Learn Anytime, Anywhere with <span className="text-blue-600">EduConnect</span>
             </h2>
             <p className="mt-4 text-lg text-gray-600">
-              Discover a world of educational courses to upgrade your skills. Whether you're prepping for exams or learning for fun, EduConnect is your go-to platform.
+            Unlock fun and engaging courses for primary and high school students. Whether you're improving your math skills or exploring new science concepts, EduConnect is here to help you learn and grow!
             </p>
             <div className="mt-6 space-x-4">
               <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
