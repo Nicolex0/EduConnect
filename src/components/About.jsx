@@ -32,7 +32,7 @@ const About = () => {
             <p className="text-gray-600 mt-2">Learning and growing with EduConnect</p>
           </div>
           <div>
-            <h3 className="text-2xl font-semibold text-blue-600">50+ Courses</h3>
+            <h3 className="text-2xl font-semibold text-blue-600">50+ Course Categories</h3>
             <p className="text-gray-600 mt-2">Across tech, sciences, maths, and more</p>
           </div>
           <div>
