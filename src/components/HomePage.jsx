@@ -28,12 +28,16 @@ const HomePage = () => {
             Unlock fun and engaging courses for primary and high school students. Whether you're improving your math skills or exploring new science concepts, EduConnect is here to help you learn and grow!
             </p>
             <div className="mt-6 space-x-4">
+              <Link to="/courses">
               <button className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
                 Explore Courses
               </button>
+              </Link>
+              <Link to="/about">
               <button className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-100 transition">
                 Learn More
               </button>
+              </Link>
             </div>
           </div>
           <div className="hidden md:block">

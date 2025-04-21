@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import Navbar from './Navbar'; // Assuming you have a Navbar component
 import {
   Book,
   FlaskConical,
@@ -57,6 +59,10 @@ const CoursesPage = () => {
 
   return (
     <div className="min-h-screen bg-blue-50 py-10 px-6">
+      {/* Navbar */}
+      <Navbar />
+
+      {/* Courses Section */}
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-800 mb-4">Our Courses</h2>
         <p className="text-center text-gray-600 text-lg mb-6">
